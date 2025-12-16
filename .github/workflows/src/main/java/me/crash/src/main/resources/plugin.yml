@@ -1,0 +1,11 @@
+name: CrashPlugin
+version: 1.0
+main: me.crash.CrashPlugin
+api-version: 1.20
+commands:
+  crash:
+    description: Crash een speler (fake)
+    usage: /crash <player>
+permissions:
+  crash.use:
+    default: op
